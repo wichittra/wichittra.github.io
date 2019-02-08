@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> jquery </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            body {
+                font-size: 36px;
+            }
+           #mindphp{
+                font-size: xx-small;
+                background-color: #00FF00;
+            }
+           .classmindphp{
+                font-size: larger;
+                font-style: italic;
+            }
+            div {
+                background-color: #0000FF;
+            }
+             p.classmindphp {
+                background-color:#999999;
+            }
+        </style>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){ 
+            
+          $('#mindphp').html('Mindphp From jQuery');
+         })
+        </script>
+    </head>
+        <body>
+            <div>ตัวอย่าง</div>
+            <div id="mindphp">Mindphp.com</div>
+            <div class="classmindphp">ข้อความที่อยู่ใน classmindphp Mindphp.com</div>
+            <p class="classmindphp">ข้อความที่อยู่ใน classmindphp Tag p</p>
+        </body>
+</html>
